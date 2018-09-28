@@ -20,8 +20,7 @@ CREATE
 
 To run the Neo4J Docker image 
 ---------------------------------
-Docker Shell>docker run     --publish=7474:7474 --publish=7687:7687     --volume=$HOME/neo4j/data:/data     --volume=$HOME/neo4j/l
-ogs:/logs     neo4j
+Docker Shell>docker run     --publish=7474:7474 --publish=7687:7687     --volume=$HOME/neo4j/data:/data     --volume=$HOME/neo4j/logs:/logs     neo4j
 
 To stop all the containers
 ---------------------------------
