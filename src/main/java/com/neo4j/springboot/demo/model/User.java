@@ -1,4 +1,4 @@
-package model;
+package com.neo4j.springboot.demo.model;
 
 import org.neo4j.ogm.annotation.GraphId;
 import org.neo4j.ogm.annotation.NodeEntity;

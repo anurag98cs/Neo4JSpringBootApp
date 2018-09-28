@@ -1,6 +1,6 @@
-package repository;
+package com.neo4j.springboot.demo.repository;
 
-import model.User;
+import com.neo4j.springboot.demo.model.User;
 import org.springframework.data.neo4j.annotation.Query;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 

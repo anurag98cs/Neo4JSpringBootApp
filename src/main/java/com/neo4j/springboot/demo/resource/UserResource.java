@@ -1,11 +1,11 @@
-package resource;
+package com.neo4j.springboot.demo.resource;
 
-import model.User;
+import com.neo4j.springboot.demo.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import service.UserService;
+import com.neo4j.springboot.demo.service.UserService;
 
 import java.util.Collection;
 
@@ -21,5 +21,11 @@ public class UserResource {
     public Collection<User> getAll(){
         return userService.getAll();
     }
+
+//    @GetMapping
+//    public String user()
+//    {
+//        return "Hello Neo4J";
+//    }
 
 }

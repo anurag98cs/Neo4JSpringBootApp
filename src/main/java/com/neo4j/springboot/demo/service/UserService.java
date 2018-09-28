@@ -1,11 +1,10 @@
-package service;
+package com.neo4j.springboot.demo.service;
 
-import model.User;
+import com.neo4j.springboot.demo.model.User;
+import com.neo4j.springboot.demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.UserRepository;
 
-import javax.xml.ws.ServiceMode;
 import java.util.Collection;
 
 @Service
